@@ -1,2 +1,41 @@
 # Formative-Assessment-Supervised-Learning
-Formative Assessment: Supervised Learning
+
+Breast Cancer Classification Project
+Overview
+This project aims to classify breast cancer tumors as either malignant or benign using various supervised learning algorithms. The dataset used is the Breast Cancer Wisconsin (Diagnostic) dataset, which includes features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
+
+Table of Contents
+Dataset
+Models
+Performance Comparison
+Usage
+Requirements
+License
+Dataset
+The dataset used for this project is the Breast Cancer Wisconsin (Diagnostic) dataset, which is available from the scikit-learn library. It contains:
+
+569 samples with 30 features each.
+The target variable is binary:
+0: Benign
+1: Malignant
+Models
+The following classification algorithms were implemented and compared:
+
+Logistic Regression
+Random Forest
+Decision Tree
+Support Vector Machine (SVM)
+K-Nearest Neighbors (KNN)
+Performance Comparison
+The performance of each model was evaluated based on accuracy, precision, recall, and F1-score. The comparison results are summarized below:
+
+Model Performance Summary
+Algorithm	Accuracy	Precision (Malignant)	Recall (Malignant)	F1-Score (Malignant)
+Logistic Regression	0.9883	0.99	0.99	0.99
+Random Forest	0.9649	0.96	0.98	0.97
+Decision Tree	0.9240	0.95	0.93	0.94
+Support Vector Machine	0.9883	0.98	1.00	0.99
+K-Nearest Neighbors	0.9708	0.97	0.98	0.98
+Best and Worst Performing Models
+Best Performing Model: Logistic Regression and Support Vector Machine (Accuracy: 98.83%)
+Worst Performing Model: Decision Tree (Accuracy: 92.40%)
